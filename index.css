@@ -32,7 +32,7 @@ header {
     flex-direction: row;
     background-color: #1f2535;
     color: white;
-    width: 75%;
+    width: 60%;
     justify-content: space-between;
     padding: 10px 10px;
     border-radius: 10px;
@@ -61,6 +61,12 @@ header {
     display: flex;
     background-color:#2f354b ;
     border-radius: 7.5px;
+    transition:  border 0.2s;
+}
+
+.mode.active:hover{
+    border: solid 0.01px #dd5854;
+    cursor: pointer;
 }
 
 .mode.active img {
@@ -69,13 +75,17 @@ header {
 
 }
 
+/* CONTAINER **************/
+
 .container {
     display: flex;
     margin: 0 auto;
-    width: 75%;
+    width: 60%;
     justify-content: center;
     flex-direction: column;
 }
+
+/*HEAD CONTAINER  */
 
 .head-container {
     
@@ -105,19 +115,23 @@ header {
     color: white;
     min-width: 40px;
     max-height: 35px;
+    cursor: pointer;
 }
 
 .bt:hover {
-    background-color: red;
+    background-color: #dd5854;
     color: hsl(227, 75%, 14%);
 }
+
+
+/* LIST EXTENSIONS ***********************************/
 
 .list-container{
     display: grid;
     margin-top: 1.2rem;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1rem;
-    
+    margin-bottom: 2rem;
 }
 
 .extension{
@@ -129,20 +143,30 @@ header {
     border:  00.5px solid grey;
 }
 
+
+.icon{
+    width: 50px;
+    margin: 0 auto;
+    
+}
 .information{
     display: flex;
     gap: 10px;
     flex-direction: row;
+    margin-bottom: 2.2rem;
+}
+
+
+.ex-title{
+    margin-bottom: 0.3rem;
+    color: white;
+    font-weight: 600;
 }
 
 .ex-subtitle{
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 520;
     color: grey;
-}
-
-.ex-title{
-    color: white;
 }
 
 .actions{
@@ -151,6 +175,10 @@ header {
     justify-content: space-between;
 }
 
+
+
+
+/* MEDIAS */
 
 @media (max-width: 1500px){
 
