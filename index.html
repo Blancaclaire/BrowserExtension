@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browser Extension</title>
+
+    <!-- files links -->
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+
+    <!-- Font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!--  -->
+</head>
+
+<body>
+    <header>
+        <div class="bar">
+
+            <div class="logo">
+                <img class="logo-icon" src="./images/logo.svg">
+
+            </div>
+            <div class="modes">
+                <div class="mode active">
+                    <img class="sun-icon" src="./images/icon-sun.svg">
+                </div>
+                <div class="mode">
+                    <img class="moon-icon" src="./images/icon-moon.svg">
+                </div>
+            </div>
+
+
+        </div>
+
+    </header>
+
+    <section id="content">
+
+        <div class="container">
+            <div class="head-container">
+                <div class="title">
+                    <p class="exlist">Extension List </p>
+                </div>
+                <div class="buttons">
+                    <button class="bt" id="all">All</button>
+                    <button class="bt" id="Active">Active</button>
+                    <button class="bt" id="Inactive">Inactive</button>
+
+                </div>
+
+            </div>
+            <div class="list-container">
+                <div class="extension" id="DevLens">
+                    <div class="information">
+                        <div class="ex-icon">
+                            <img class="icon" src="./images/logo-devlens.svg">
+
+                        </div>
+                        <div class="explication">
+                            <div class="ex-title">
+                                <p>Devlens</p>
+                            </div>
+                            <div class="ex-subtitle">
+                                <p>Quickly inspect page layaouts and visualize elementr boundaries. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="actions">
+                        <button class="removeBt"> Remove</button>
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider"></span>
+                        </label>
+
+                    </div>
+
+                </div>
+
+                <div class="extension" id="StyleSpy">
+
+                      <div class="information">
+                        <div class="ex-icon">
+                            <img class="icon" src="./images/logo-devlens.svg">
+
+                        </div>
+                        <div class="explication">
+                            <div class="ex-title">
+                                <p>Devlens</p>
+                            </div>
+                            <div class="ex-subtitle">
+                                <p>Quickly inspect page layaouts and visualize elementr boundaries. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="extension" id="SpeedBoost">
+
+                      <div class="information">
+                        <div class="ex-icon">
+                            <img class="icon" src="./images/logo-devlens.svg">
+
+                        </div>
+                        <div class="explication">
+                            <div class="ex-title">
+                                <p>Devlens</p>
+                            </div>
+                            <div class="ex-subtitle">
+                                <p>Quickly inspect page layaouts and visualize elementr boundaries. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="extension" id="JSONWizard">
+                      <div class="information">
+                        <div class="ex-icon">
+                            <img class="icon" src="./images/logo-devlens.svg">
+
+                        </div>
+                        <div class="explication">
+                            <div class="ex-title">
+                                <p>Devlens</p>
+                            </div>
+                            <div class="ex-subtitle">
+                                <p>Quickly inspect page layaouts and visualize elementr boundaries. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="extension" id="TabMaster PRO">
+                    <div class="information">
+                        <div class="ex-icon">
+                            <img class="icon" src="./images/logo-devlens.svg">
+
+                        </div>
+                        <div class="explication">
+                            <div class="ex-title">
+                                <p>Devlens</p>
+                            </div>
+                            <div class="ex-subtitle">
+                                <p>Quickly inspect page layaouts and visualize elementr boundaries. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="extension" id="ViewportBuddy">
+                    <div class="information">
+                        <div class="ex-icon">
+                            <img class="icon" src="./images/logo-devlens.svg">
+
+                        </div>
+                        <div class="explication">
+                            <div class="ex-title">
+                                <p>Devlens</p>
+                            </div>
+                            <div class="ex-subtitle">
+                                <p>Quickly inspect page layaouts and visualize elementr boundaries. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="extension" id="MarkupNotes">
+                    <div class="information">
+                        <div class="ex-icon">
+                            <img class="icon" src="./images/logo-devlens.svg">
+
+                        </div>
+                        <div class="explication">
+                            <div class="ex-title">
+                                <p>Devlens</p>
+                            </div>
+                            <div class="ex-subtitle">
+                                <p>Quickly inspect page layaouts and visualize elementr boundaries. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="extension" id="GridGuides">
+                    <div class="information">
+                        <div class="ex-icon">
+                            <img class="icon" src="./images/logo-devlens.svg">
+
+                        </div>
+                        <div class="explication">
+                            <div class="ex-title">
+                                <p>Devlens</p>
+                            </div>
+                            <div class="ex-subtitle">
+                                <p>Quickly inspect page layaouts and visualize elementr boundaries. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="extension" id="PalettePicker">
+                    <div class="information">
+                        <div class="ex-icon">
+                            <img class="icon" src="./images/logo-devlens.svg">
+
+                        </div>
+                        <div class="explication">
+                            <div class="ex-title">
+                                <p>Devlens</p>
+                            </div>
+                            <div class="ex-subtitle">
+                                <p>Quickly inspect page layaouts and visualize elementr boundaries. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="extension" id="LinkChecker">
+                    <div class="information">
+                        <div class="ex-icon">
+                            <img class="icon" src="./images/logo-devlens.svg">
+
+                        </div>
+                        <div class="explication">
+                            <div class="ex-title">
+                                <p>Devlens</p>
+                            </div>
+                            <div class="ex-subtitle">
+                                <p>Quickly inspect page layaouts and visualize elementr boundaries. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="extension" id="DOMSnapshot">
+                    <div class="information">
+                        <div class="ex-icon">
+                            <img class="icon" src="./images/logo-devlens.svg">
+
+                        </div>
+                        <div class="explication">
+                            <div class="ex-title">
+                                <p>Devlens</p>
+                            </div>
+                            <div class="ex-subtitle">
+                                <p>Quickly inspect page layaouts and visualize elementr boundaries. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="extension" id="ConsolePlus">
+                    <div class="information">
+                        <div class="ex-icon">
+                            <img class="icon" src="./images/logo-devlens.svg">
+
+                        </div>
+                        <div class="explication">
+                            <div class="ex-title">
+                                <p>Devlens</p>
+                            </div>
+                            <div class="ex-subtitle">
+                                <p>Quickly inspect page layaouts and visualize elementr boundaries. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </section>
+</body>
+
+</html>
